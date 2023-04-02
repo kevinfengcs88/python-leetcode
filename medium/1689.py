@@ -10,3 +10,5 @@ class Solution:
         # simply check for the largest digit in the given string (there's a reason why it's a string input, and not an integer) and return it
         # in other words, if there is a 9 in the input number, then 9 deci-binary numbers are required to "add up" to that 9
         # the rest of the numbers will be accounted for in, at most, 9 numbers
+
+        # (note the use of list comprehension on line 5 to make this solution more elegant)
